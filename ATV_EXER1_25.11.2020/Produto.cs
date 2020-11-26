@@ -19,7 +19,11 @@ namespace ATV_EXER1_25._11._2020
 
         public virtual String PrecoTag()
         {
-            return precoTag();
+            //return precoTag();
+            return Nome
+                + " $ "
+                + Preco.ToString("F2", CultureInfo.InvariantCulture);
+            
         }
     }
 }
