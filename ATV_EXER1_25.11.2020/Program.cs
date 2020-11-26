@@ -45,10 +45,17 @@ namespace ATV_EXER1_25._11._2020
                 }
             }
 
-            Console.WriteLine("\nEtiquetas: ");
+            /*Console.WriteLine("\nEtiquetas: ");
             foreach(Produto obj in list)
             {
                 Console.WriteLine(list);
+            }*/
+            
+            Console.WriteLine();
+            Console.WriteLine("Etiquetas:");
+            foreach (Produto prod in list)
+            {
+                Console.WriteLine(prod.PrecoTag());
             }
         }
     }
