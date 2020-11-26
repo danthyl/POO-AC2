@@ -16,7 +16,8 @@ namespace ATV_EXER3_25._11._2020
             int n = int.Parse(Console.ReadLine());
 
             //for para entrada de dados
-            for(int i = 1; i < n; i++)
+            //for(int i = 1; i < n; i++) é menor ou igual...
+            for(int i = 1; i <= n; i++)
             {
                 Console.Write($"\nForma #{i}:");
                 Console.Write("\nRetângulo ou Circulo [R/C]? ");
